@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: O;
+  box-sizing: border-box;
+}
+body{
+
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: steelblue;
+}
+.container{
+
+  display: flex;
+  margin: 10px;
+  width: 800px;
+  justify-content: center;
+}
+.container .box{
+  position: relative;
+  height: 200px;
+  width: 300PX;
+  border: 2px solid black;
+  margin-right: 20px;
+  background-color: aliceblue;
+}
+.box .image{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(PXL_20230403_105214175.PORTRAIT.jpg);
+
+}
+
+.box .hovered{
+
+  border: 2px dashed  #333;
+
+}
