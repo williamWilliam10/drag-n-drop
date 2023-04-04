@@ -23,5 +23,5 @@ boxes.forEach(box =>{
         box.classList.remove("hovered");
     })
 });
-A
+
 /* Deuxieme METHODE */
